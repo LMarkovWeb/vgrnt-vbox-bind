@@ -4,7 +4,7 @@ chpasswd <<<"root:root"
 
 apt update
 
-apt install bind9 net-tools vim mc -y
+apt install bind9 net-tools vim mc dnstop -y
 
 systemctl start named
 systemctl enable named
